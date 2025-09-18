@@ -346,7 +346,7 @@ struct ContentView: View {
         HStack {
             Text("STC 串口控制面板").font(.system(size: 18, weight: .bold))
             Spacer()
-            Text("智能2301班 — 组长：张兆涵  组员：岳林轩").foregroundStyle(.secondary)
+            Text("智能23xx班 — 组长：xxx  组员：xxx").foregroundStyle(.secondary)
         }
     }
 
@@ -442,7 +442,7 @@ struct SplashView: View {
     var body: some View {
         VStack(spacing: 14) {
             Text("STC 串口控制面板").font(.system(size: 20, weight: .bold))
-            Text("智能2301班  —  组长：张兆涵   组员：岳林轩").foregroundStyle(.secondary)
+            Text("智能23xx班  —  组长：xxx   组员：xxx").foregroundStyle(.secondary)
             ProgressView(value: progress, total: 100)
                 .frame(width: 320)
                 .onAppear {
